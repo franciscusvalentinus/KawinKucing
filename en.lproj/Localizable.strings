@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  KawinKucing
+
+  Created by Franciscus Valentinus Ongkosianbhadra on 06/12/22.
+  
+*/
+
+// InputCatView
+"Input Data Kucing" = "Input Cat Data";
+"Ras kucing" = "Cat breed";
+"Jenis kelamin" = "Gender";
+"Usia" = "Age";
+"Bersih dari kutu dan jamur" = "Already groomed";
+"Sudah vaksin ?" = "Already vaccinated ?";
+"Pacak / bagi hasil ?" = "Pay / kitten sharing ?";
+"Nomor telepon" = "Phone number";
+"Lokasi" = "Location";
+"Gambar kucing" = "Cat picture";
+"Pilih gambar kucing" = "Select cat picture";
+
+"Beranda" = "Dashboard";
+"Kucingku" = "My Cat";
+"Cari kucing" = "Find a cat";
+"Jantan" = "Male";
+"Betina" = "Female";
+"Pacak / Bagi Hasil" = "Pay / Kitten Sharing";
+"Pacak" = "Pay";
+"Bagi Hasil" = "Kitten Sharing";

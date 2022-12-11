@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940F2BED2933210A003991F1 /* CatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F2BEC2933210A003991F1 /* CatCardView.swift */; };
+		9415C2F6293F2DE4005C47F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9415C2F8293F2DE4005C47F8 /* Localizable.strings */; };
+		942FD39429330E040052BAFA /* KawinKucingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD39329330E040052BAFA /* KawinKucingApp.swift */; };
+		942FD39629330E040052BAFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD39529330E040052BAFA /* ContentView.swift */; };
+		942FD39829330E050052BAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942FD39729330E050052BAFA /* Assets.xcassets */; };
+		942FD39B29330E050052BAFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942FD39A29330E050052BAFA /* Preview Assets.xcassets */; };
+		942FD3A32933105D0052BAFA /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD3A22933105D0052BAFA /* Cat.swift */; };
+		942FD3A62933111C0052BAFA /* CatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD3A52933111C0052BAFA /* CatData.swift */; };
+		942FD3A8293311580052BAFA /* MyCatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD3A7293311580052BAFA /* MyCatData.swift */; };
+		942FD3B8293316F70052BAFA /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD3B7293316F70052BAFA /* CatListView.swift */; };
+		942FD3BC2933196A0052BAFA /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FD3BB2933196A0052BAFA /* CatDetailView.swift */; };
+		9455B29A293743EC00C46016 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455B299293743EC00C46016 /* View.swift */; };
+		9455B29C2937441B00C46016 /* HalfSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455B29B2937441B00C46016 /* HalfSheetHelper.swift */; };
+		9455B29E2937443900C46016 /* CustomHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455B29D2937443900C46016 /* CustomHostingController.swift */; };
+		9455B2A32937567100C46016 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455B2A22937567100C46016 /* Coordinator.swift */; };
+		9455B2A5293756B200C46016 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455B2A4293756B200C46016 /* ImagePickerView.swift */; };
+		946213952936FB3D00878AB8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946213942936FB3D00878AB8 /* MainView.swift */; };
+		9470015A29339E960090D341 /* StandardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470015929339E960090D341 /* StandardButton.swift */; };
+		9470015C2933A04A0090D341 /* MyCatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470015B2933A04A0090D341 /* MyCatListView.swift */; };
+		9470015E2933A1000090D341 /* MyCatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470015D2933A1000090D341 /* MyCatDetailView.swift */; };
+		947001822933A7460090D341 /* Province10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001602933A7460090D341 /* Province10View.swift */; };
+		947001832933A7460090D341 /* Province9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001612933A7460090D341 /* Province9View.swift */; };
+		947001842933A7460090D341 /* Province31View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001622933A7460090D341 /* Province31View.swift */; };
+		947001852933A7460090D341 /* Province25View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001632933A7460090D341 /* Province25View.swift */; };
+		947001862933A7460090D341 /* Province4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001642933A7460090D341 /* Province4View.swift */; };
+		947001872933A7460090D341 /* Province28View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001652933A7460090D341 /* Province28View.swift */; };
+		947001882933A7460090D341 /* Province23View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001662933A7460090D341 /* Province23View.swift */; };
+		947001892933A7460090D341 /* Province16View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001672933A7460090D341 /* Province16View.swift */; };
+		9470018A2933A7460090D341 /* Province2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001682933A7460090D341 /* Province2View.swift */; };
+		9470018B2933A7460090D341 /* Province11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001692933A7460090D341 /* Province11View.swift */; };
+		9470018C2933A7460090D341 /* Province24View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470016A2933A7460090D341 /* Province24View.swift */; };
+		9470018D2933A7460090D341 /* Province30View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470016B2933A7460090D341 /* Province30View.swift */; };
+		9470018E2933A7460090D341 /* Province8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470016C2933A7460090D341 /* Province8View.swift */; };
+		9470018F2933A7460090D341 /* Province29View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470016D2933A7460090D341 /* Province29View.swift */; };
+		947001902933A7460090D341 /* Province5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470016E2933A7460090D341 /* Province5View.swift */; };
+		947001912933A7460090D341 /* Province22View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470016F2933A7460090D341 /* Province22View.swift */; };
+		947001922933A7460090D341 /* Province17View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001702933A7460090D341 /* Province17View.swift */; };
+		947001932933A7460090D341 /* Province3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001712933A7460090D341 /* Province3View.swift */; };
+		947001942933A7460090D341 /* Province33View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001722933A7460090D341 /* Province33View.swift */; };
+		947001952933A7460090D341 /* Province27View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001732933A7460090D341 /* Province27View.swift */; };
+		947001962933A7460090D341 /* Province12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001742933A7460090D341 /* Province12View.swift */; };
+		947001972933A7460090D341 /* Province6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001752933A7460090D341 /* Province6View.swift */; };
+		947001982933A7460090D341 /* Province14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001762933A7460090D341 /* Province14View.swift */; };
+		947001992933A7460090D341 /* Province21View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001772933A7460090D341 /* Province21View.swift */; };
+		9470019A2933A7460090D341 /* Province19View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001782933A7460090D341 /* Province19View.swift */; };
+		9470019B2933A7460090D341 /* Province26View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001792933A7460090D341 /* Province26View.swift */; };
+		9470019C2933A7460090D341 /* Province32View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470017A2933A7460090D341 /* Province32View.swift */; };
+		9470019D2933A7460090D341 /* Province13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470017B2933A7460090D341 /* Province13View.swift */; };
+		9470019E2933A7460090D341 /* Province7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470017C2933A7460090D341 /* Province7View.swift */; };
+		9470019F2933A7460090D341 /* Province15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470017D2933A7460090D341 /* Province15View.swift */; };
+		947001A02933A7460090D341 /* Province20View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470017E2933A7460090D341 /* Province20View.swift */; };
+		947001A12933A7460090D341 /* Province34View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470017F2933A7460090D341 /* Province34View.swift */; };
+		947001A22933A7460090D341 /* Province18View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001802933A7460090D341 /* Province18View.swift */; };
+		947001A32933A7460090D341 /* Province1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001812933A7460090D341 /* Province1View.swift */; };
+		947001A52933A8460090D341 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001A42933A8460090D341 /* LocationView.swift */; };
+		947001A72933A8D10090D341 /* InputCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947001A62933A8D10090D341 /* InputCatView.swift */; };
+		947C2154293DE4A0003254B9 /* AddCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C2153293DE4A0003254B9 /* AddCatView.swift */; };
+		947C2156293DF070003254B9 /* EditCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C2155293DF070003254B9 /* EditCatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940F2BEC2933210A003991F1 /* CatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCardView.swift; sourceTree = "<group>"; };
+		9415C2F7293F2DE4005C47F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9415C2F9293F2DE8005C47F8 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		942FD39029330E040052BAFA /* KawinKucing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KawinKucing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942FD39329330E040052BAFA /* KawinKucingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KawinKucingApp.swift; sourceTree = "<group>"; };
+		942FD39529330E040052BAFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		942FD39729330E050052BAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942FD39A29330E050052BAFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		942FD3A22933105D0052BAFA /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		942FD3A52933111C0052BAFA /* CatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatData.swift; sourceTree = "<group>"; };
+		942FD3A7293311580052BAFA /* MyCatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCatData.swift; sourceTree = "<group>"; };
+		942FD3B7293316F70052BAFA /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
+		942FD3BB2933196A0052BAFA /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
+		9455B299293743EC00C46016 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9455B29B2937441B00C46016 /* HalfSheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetHelper.swift; sourceTree = "<group>"; };
+		9455B29D2937443900C46016 /* CustomHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHostingController.swift; sourceTree = "<group>"; };
+		9455B2A22937567100C46016 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9455B2A4293756B200C46016 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		946213942936FB3D00878AB8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9470015929339E960090D341 /* StandardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButton.swift; sourceTree = "<group>"; };
+		9470015B2933A04A0090D341 /* MyCatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCatListView.swift; sourceTree = "<group>"; };
+		9470015D2933A1000090D341 /* MyCatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCatDetailView.swift; sourceTree = "<group>"; };
+		947001602933A7460090D341 /* Province10View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province10View.swift; sourceTree = "<group>"; };
+		947001612933A7460090D341 /* Province9View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province9View.swift; sourceTree = "<group>"; };
+		947001622933A7460090D341 /* Province31View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province31View.swift; sourceTree = "<group>"; };
+		947001632933A7460090D341 /* Province25View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province25View.swift; sourceTree = "<group>"; };
+		947001642933A7460090D341 /* Province4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province4View.swift; sourceTree = "<group>"; };
+		947001652933A7460090D341 /* Province28View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province28View.swift; sourceTree = "<group>"; };
+		947001662933A7460090D341 /* Province23View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province23View.swift; sourceTree = "<group>"; };
+		947001672933A7460090D341 /* Province16View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province16View.swift; sourceTree = "<group>"; };
+		947001682933A7460090D341 /* Province2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province2View.swift; sourceTree = "<group>"; };
+		947001692933A7460090D341 /* Province11View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province11View.swift; sourceTree = "<group>"; };
+		9470016A2933A7460090D341 /* Province24View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province24View.swift; sourceTree = "<group>"; };
+		9470016B2933A7460090D341 /* Province30View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province30View.swift; sourceTree = "<group>"; };
+		9470016C2933A7460090D341 /* Province8View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province8View.swift; sourceTree = "<group>"; };
+		9470016D2933A7460090D341 /* Province29View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province29View.swift; sourceTree = "<group>"; };
+		9470016E2933A7460090D341 /* Province5View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province5View.swift; sourceTree = "<group>"; };
+		9470016F2933A7460090D341 /* Province22View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province22View.swift; sourceTree = "<group>"; };
+		947001702933A7460090D341 /* Province17View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province17View.swift; sourceTree = "<group>"; };
+		947001712933A7460090D341 /* Province3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province3View.swift; sourceTree = "<group>"; };
+		947001722933A7460090D341 /* Province33View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province33View.swift; sourceTree = "<group>"; };
+		947001732933A7460090D341 /* Province27View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province27View.swift; sourceTree = "<group>"; };
+		947001742933A7460090D341 /* Province12View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province12View.swift; sourceTree = "<group>"; };
+		947001752933A7460090D341 /* Province6View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province6View.swift; sourceTree = "<group>"; };
+		947001762933A7460090D341 /* Province14View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province14View.swift; sourceTree = "<group>"; };
+		947001772933A7460090D341 /* Province21View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province21View.swift; sourceTree = "<group>"; };
+		947001782933A7460090D341 /* Province19View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province19View.swift; sourceTree = "<group>"; };
+		947001792933A7460090D341 /* Province26View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province26View.swift; sourceTree = "<group>"; };
+		9470017A2933A7460090D341 /* Province32View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province32View.swift; sourceTree = "<group>"; };
+		9470017B2933A7460090D341 /* Province13View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province13View.swift; sourceTree = "<group>"; };
+		9470017C2933A7460090D341 /* Province7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province7View.swift; sourceTree = "<group>"; };
+		9470017D2933A7460090D341 /* Province15View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province15View.swift; sourceTree = "<group>"; };
+		9470017E2933A7460090D341 /* Province20View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province20View.swift; sourceTree = "<group>"; };
+		9470017F2933A7460090D341 /* Province34View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province34View.swift; sourceTree = "<group>"; };
+		947001802933A7460090D341 /* Province18View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province18View.swift; sourceTree = "<group>"; };
+		947001812933A7460090D341 /* Province1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province1View.swift; sourceTree = "<group>"; };
+		947001A42933A8460090D341 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		947001A62933A8D10090D341 /* InputCatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputCatView.swift; sourceTree = "<group>"; };
+		947C2153293DE4A0003254B9 /* AddCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatView.swift; sourceTree = "<group>"; };
+		947C2155293DF070003254B9 /* EditCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942FD38D29330E040052BAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942FD38729330E040052BAFA = {
+			isa = PBXGroup;
+			children = (
+				9415C2F8293F2DE4005C47F8 /* Localizable.strings */,
+				942FD39229330E040052BAFA /* KawinKucing */,
+				942FD39129330E040052BAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942FD39129330E040052BAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942FD39029330E040052BAFA /* KawinKucing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942FD39229330E040052BAFA /* KawinKucing */ = {
+			isa = PBXGroup;
+			children = (
+				942FD3A9293312990052BAFA /* View */,
+				942FD3A42933110F0052BAFA /* Resource */,
+				942FD3A1293310510052BAFA /* Model */,
+				942FD3AA2933129F0052BAFA /* Component */,
+				942FD39329330E040052BAFA /* KawinKucingApp.swift */,
+				942FD39529330E040052BAFA /* ContentView.swift */,
+				942FD39729330E050052BAFA /* Assets.xcassets */,
+				942FD39929330E050052BAFA /* Preview Content */,
+			);
+			path = KawinKucing;
+			sourceTree = "<group>";
+		};
+		942FD39929330E050052BAFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				942FD39A29330E050052BAFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		942FD3A1293310510052BAFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				942FD3A22933105D0052BAFA /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		942FD3A42933110F0052BAFA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				942FD3A52933111C0052BAFA /* CatData.swift */,
+				942FD3A7293311580052BAFA /* MyCatData.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		942FD3A9293312990052BAFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				947C2153293DE4A0003254B9 /* AddCatView.swift */,
+				947C2155293DF070003254B9 /* EditCatView.swift */,
+				947001A62933A8D10090D341 /* InputCatView.swift */,
+				947001A42933A8460090D341 /* LocationView.swift */,
+				9470015F2933A7460090D341 /* Province */,
+				940F2BEC2933210A003991F1 /* CatCardView.swift */,
+				942FD3B7293316F70052BAFA /* CatListView.swift */,
+				942FD3BB2933196A0052BAFA /* CatDetailView.swift */,
+				9470015B2933A04A0090D341 /* MyCatListView.swift */,
+				9470015D2933A1000090D341 /* MyCatDetailView.swift */,
+				946213942936FB3D00878AB8 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		942FD3AA2933129F0052BAFA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9455B2A12937564300C46016 /* PhotoPicker */,
+				9455B298293743CB00C46016 /* Modal */,
+				9470015929339E960090D341 /* StandardButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		9455B298293743CB00C46016 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				9455B299293743EC00C46016 /* View.swift */,
+				9455B29B2937441B00C46016 /* HalfSheetHelper.swift */,
+				9455B29D2937443900C46016 /* CustomHostingController.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		9455B2A12937564300C46016 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9455B2A22937567100C46016 /* Coordinator.swift */,
+				9455B2A4293756B200C46016 /* ImagePickerView.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		9470015F2933A7460090D341 /* Province */ = {
+			isa = PBXGroup;
+			children = (
+				947001812933A7460090D341 /* Province1View.swift */,
+				947001682933A7460090D341 /* Province2View.swift */,
+				947001712933A7460090D341 /* Province3View.swift */,
+				947001642933A7460090D341 /* Province4View.swift */,
+				9470016E2933A7460090D341 /* Province5View.swift */,
+				947001752933A7460090D341 /* Province6View.swift */,
+				9470017C2933A7460090D341 /* Province7View.swift */,
+				9470016C2933A7460090D341 /* Province8View.swift */,
+				947001612933A7460090D341 /* Province9View.swift */,
+				947001602933A7460090D341 /* Province10View.swift */,
+				947001692933A7460090D341 /* Province11View.swift */,
+				947001742933A7460090D341 /* Province12View.swift */,
+				9470017B2933A7460090D341 /* Province13View.swift */,
+				947001762933A7460090D341 /* Province14View.swift */,
+				9470017D2933A7460090D341 /* Province15View.swift */,
+				947001672933A7460090D341 /* Province16View.swift */,
+				947001702933A7460090D341 /* Province17View.swift */,
+				947001802933A7460090D341 /* Province18View.swift */,
+				947001782933A7460090D341 /* Province19View.swift */,
+				9470017E2933A7460090D341 /* Province20View.swift */,
+				947001772933A7460090D341 /* Province21View.swift */,
+				9470016F2933A7460090D341 /* Province22View.swift */,
+				947001662933A7460090D341 /* Province23View.swift */,
+				9470016A2933A7460090D341 /* Province24View.swift */,
+				947001632933A7460090D341 /* Province25View.swift */,
+				947001792933A7460090D341 /* Province26View.swift */,
+				947001732933A7460090D341 /* Province27View.swift */,
+				947001652933A7460090D341 /* Province28View.swift */,
+				9470016D2933A7460090D341 /* Province29View.swift */,
+				9470016B2933A7460090D341 /* Province30View.swift */,
+				947001622933A7460090D341 /* Province31View.swift */,
+				9470017A2933A7460090D341 /* Province32View.swift */,
+				947001722933A7460090D341 /* Province33View.swift */,
+				9470017F2933A7460090D341 /* Province34View.swift */,
+			);
+			path = Province;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942FD38F29330E040052BAFA /* KawinKucing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942FD39E29330E050052BAFA /* Build configuration list for PBXNativeTarget "KawinKucing" */;
+			buildPhases = (
+				942FD38C29330E040052BAFA /* Sources */,
+				942FD38D29330E040052BAFA /* Frameworks */,
+				942FD38E29330E040052BAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KawinKucing;
+			productName = KawinKucing;
+			productReference = 942FD39029330E040052BAFA /* KawinKucing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942FD38829330E040052BAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					942FD38F29330E040052BAFA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 942FD38B29330E040052BAFA /* Build configuration list for PBXProject "KawinKucing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = 942FD38729330E040052BAFA;
+			productRefGroup = 942FD39129330E040052BAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942FD38F29330E040052BAFA /* KawinKucing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942FD38E29330E040052BAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FD39B29330E050052BAFA /* Preview Assets.xcassets in Resources */,
+				9415C2F6293F2DE4005C47F8 /* Localizable.strings in Resources */,
+				942FD39829330E050052BAFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942FD38C29330E040052BAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9470019B2933A7460090D341 /* Province26View.swift in Sources */,
+				947001A52933A8460090D341 /* LocationView.swift in Sources */,
+				942FD39629330E040052BAFA /* ContentView.swift in Sources */,
+				9470018E2933A7460090D341 /* Province8View.swift in Sources */,
+				947001852933A7460090D341 /* Province25View.swift in Sources */,
+				947001A72933A8D10090D341 /* InputCatView.swift in Sources */,
+				9470015E2933A1000090D341 /* MyCatDetailView.swift in Sources */,
+				9455B2A32937567100C46016 /* Coordinator.swift in Sources */,
+				947001902933A7460090D341 /* Province5View.swift in Sources */,
+				947001992933A7460090D341 /* Province21View.swift in Sources */,
+				947001872933A7460090D341 /* Province28View.swift in Sources */,
+				9470019E2933A7460090D341 /* Province7View.swift in Sources */,
+				9470018F2933A7460090D341 /* Province29View.swift in Sources */,
+				9455B2A5293756B200C46016 /* ImagePickerView.swift in Sources */,
+				940F2BED2933210A003991F1 /* CatCardView.swift in Sources */,
+				9470019D2933A7460090D341 /* Province13View.swift in Sources */,
+				947001832933A7460090D341 /* Province9View.swift in Sources */,
+				9470018C2933A7460090D341 /* Province24View.swift in Sources */,
+				947001A32933A7460090D341 /* Province1View.swift in Sources */,
+				947001A02933A7460090D341 /* Province20View.swift in Sources */,
+				947001842933A7460090D341 /* Province31View.swift in Sources */,
+				942FD39429330E040052BAFA /* KawinKucingApp.swift in Sources */,
+				9470019F2933A7460090D341 /* Province15View.swift in Sources */,
+				9470015C2933A04A0090D341 /* MyCatListView.swift in Sources */,
+				9455B29A293743EC00C46016 /* View.swift in Sources */,
+				942FD3A62933111C0052BAFA /* CatData.swift in Sources */,
+				947001862933A7460090D341 /* Province4View.swift in Sources */,
+				942FD3B8293316F70052BAFA /* CatListView.swift in Sources */,
+				947001822933A7460090D341 /* Province10View.swift in Sources */,
+				947001892933A7460090D341 /* Province16View.swift in Sources */,
+				947001882933A7460090D341 /* Province23View.swift in Sources */,
+				946213952936FB3D00878AB8 /* MainView.swift in Sources */,
+				9470018A2933A7460090D341 /* Province2View.swift in Sources */,
+				9455B29E2937443900C46016 /* CustomHostingController.swift in Sources */,
+				9470018D2933A7460090D341 /* Province30View.swift in Sources */,
+				947C2154293DE4A0003254B9 /* AddCatView.swift in Sources */,
+				947001A12933A7460090D341 /* Province34View.swift in Sources */,
+				947001982933A7460090D341 /* Province14View.swift in Sources */,
+				9455B29C2937441B00C46016 /* HalfSheetHelper.swift in Sources */,
+				947001A22933A7460090D341 /* Province18View.swift in Sources */,
+				947001972933A7460090D341 /* Province6View.swift in Sources */,
+				947C2156293DF070003254B9 /* EditCatView.swift in Sources */,
+				9470019A2933A7460090D341 /* Province19View.swift in Sources */,
+				947001912933A7460090D341 /* Province22View.swift in Sources */,
+				947001942933A7460090D341 /* Province33View.swift in Sources */,
+				947001932933A7460090D341 /* Province3View.swift in Sources */,
+				942FD3BC2933196A0052BAFA /* CatDetailView.swift in Sources */,
+				942FD3A32933105D0052BAFA /* Cat.swift in Sources */,
+				947001962933A7460090D341 /* Province12View.swift in Sources */,
+				9470015A29339E960090D341 /* StandardButton.swift in Sources */,
+				947001922933A7460090D341 /* Province17View.swift in Sources */,
+				942FD3A8293311580052BAFA /* MyCatData.swift in Sources */,
+				9470019C2933A7460090D341 /* Province32View.swift in Sources */,
+				9470018B2933A7460090D341 /* Province11View.swift in Sources */,
+				947001952933A7460090D341 /* Province27View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9415C2F8293F2DE4005C47F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9415C2F7293F2DE4005C47F8 /* en */,
+				9415C2F9293F2DE8005C47F8 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942FD39C29330E050052BAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		942FD39D29330E050052BAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942FD39F29330E050052BAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KawinKucing/Preview Content\"";
+				DEVELOPMENT_TEAM = LAP49NGDMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera permission";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uc.technospire.KawinKucing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942FD3A029330E050052BAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KawinKucing/Preview Content\"";
+				DEVELOPMENT_TEAM = LAP49NGDMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera permission";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uc.technospire.KawinKucing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942FD38B29330E040052BAFA /* Build configuration list for PBXProject "KawinKucing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FD39C29330E050052BAFA /* Debug */,
+				942FD39D29330E050052BAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942FD39E29330E050052BAFA /* Build configuration list for PBXNativeTarget "KawinKucing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FD39F29330E050052BAFA /* Debug */,
+				942FD3A029330E050052BAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942FD38829330E040052BAFA /* Project object */;
+}
